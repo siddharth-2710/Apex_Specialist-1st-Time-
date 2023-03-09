@@ -1,5 +1,4 @@
 import { LightningElement } from 'lwc';
-import {ShowToastEvent} from "lightning/platformShowToastEvent";
 import { subscribe,unsubscribe,onError,setDebugFlag,isEmpEnabled } from 'lightning/empApi';
 export default class Events extends LightningElement {
     result = "";
